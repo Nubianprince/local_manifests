@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Samsung MSM8916 Common Repos -->
+  <project path="device/samsung/msm8916-common" name="Galaxy-MSM8916/android_device_samsung_msm8916-common" groups="device"  remote="github" revision="lineage-16.0"/>
+  <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device" remote="github" revision="lineage-16.0"/>
+
+ <!-- Samsung Hardware Repo -->
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung"  remote="github" revision="lineage-16.0"/>
+
+ <!-- Common Samsung MSM8916 Kernel -->
+  <project path="kernel/samsung/msm8916" name="Galaxy-MSM8916/android_kernel_samsung_msm8916" remote="github" revision="lineage-16.0"/>
+
+ <!-- Vendor Trees (for all devices) -->
+  <project path="vendor/samsung" name="Galaxy-MSM8916/proprietary_vendor_samsung" groups="device"  remote="github" revision="lineage-16.0"/>
+  <project path="vendor/samsung/gt58wifixx" name="Nubianprince/vendor_samsung_gt58wifixx" groups="device" remote="github" revision="rr-pie"/>
+
+
+ <!-- Qcom Common -->
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common"/>
+
+ <!-- TWRP -->
+  <project path="bootable/recovery-twrp" name="OmniROM/android_bootable_recovery" remote="github" revision="android-9.0"/>
+
+ <!-- Dependencies -->
+  <project path="external/busybox" name="omnirom/android_external_busybox" remote="github" revision="android-8.1"/>
+  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-16.0"/>
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-16.0"/>
+
+ <!-- arm-eabi-7.2 -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.2" name="Galaxy-MSM8916/android-prebuilts-gcc-linux-x86-arm-arm-eabi-7.2" remote="github" revision="master"/>
+
+
+ <!-- Galaxy Tab E -->
+  <project path="device/samsung/gte-common" name="Galaxy-MSM8916/android_device_samsung_gte-common" groups="device" remote="github" revision="lineage-16.0"/>
+
+
+ <!-- Galaxy Tab A -->
+  <project path="device/samsung/gt58wifi" name="Nubianprince/gt58wifi_rr" groups="device" remote="github" revision="rr_pie"/>
+
+</manifest>
