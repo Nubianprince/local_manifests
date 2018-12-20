@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="Nubianprince/gt58wifi_rr" path="device/samsung/gt58wifi" remote="github" revision="rr_oreo"/>
+  <project name="Evervolv/android_device_samsung_gt5-common" path="device/samsung/gt5-common" remote="github" revision="o-8.1" />
+  <project name="Galaxy-MSM8916/android_device_samsung_msm8916-common" path="device/samsung/msm8916-common" remote="Galaxy-MSM8916" />
+  <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
+    <!-- Galaxy Tab E -->
+  <project path="device/samsung/gte-common" name="Galaxy-MSM8916/android_device_samsung_gte-common" groups="device" remote="Galaxy-MSM8916"/>
+</manifest>
