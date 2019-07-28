@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <project path="vendor/samsung" name="Evervolv/android_vendor_samsung" groups="device" remote="github" revision="o-8.1"/>
-</manifest>
