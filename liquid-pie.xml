@@ -29,7 +29,7 @@
  <!-- Galaxy Tab E -->
   <project path="device/samsung/gte-common" name="Galaxy-MSM8916/android_device_samsung_gte-common" groups="device"  remote="github" revision="lineage-16.0"/>
   <project path="device/samsung/gt58wifi" name="Nubianprince/gt58wifi" groups="device"  remote="github" revision="liquid-remix-9.0"/>
-  <project path="device/samsung/msm8916-common" name="Nubianprince/android_device_samsung_msm8916-common" groups="device"  remote="github" revision="lineage-16.0"/>
+  <project path="device/samsung/msm8916-common" name="Nubianprince/android_device_samsung_msm8916-common" groups="device"  remote="github" revision="liquid-remix-9.0"/>
 
 
 </manifest> 
