@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="Galaxy-MSM8916"
-           fetch="https://github.com"
-           review="review.msm8916.com"
-           revision="lineage-16.0" />
 
-
-  
- <!-- Samsung MSM8916 Common Repos -->
+  <!-- Samsung MSM8916 Common Repos -->
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device" remote="github" revision="lineage-16.0"/>
   <project path="device/samsung/msm8916-common" name="Nubianprince/android_device_samsung_msm8916-common" groups="device"  remote="github" revision="liquid-remix.9.0"/>
     
@@ -33,7 +27,5 @@
  <!-- Galaxy Tab A -->
   <project path="device/samsung/gte-common" name="Galaxy-MSM8916/android_device_samsung_gte-common" groups="device"  remote="github" revision="lineage-16.0"/>
   <project path="device/samsung/gt58wifi" name="Nubianprince/gt58wifi" groups="device"  remote="github" revision="aicp-9.0"/>
-
-
 
 </manifest> 
