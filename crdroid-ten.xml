@@ -11,19 +11,19 @@
   <project path="device/samsung/msm8916-common" name="Nubianprince/android_device_samsung_msm8916-common" groups="device"  remote="github" revision="crdroid-10.0"/>
   
  <!-- Samsung Hardware Repo -->
-  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-17.0"/>
+  <project path="hardware/samsung" name="Evervolv/android_hardware_samsung" remote="github" revision="q-10.0"/>
 
  <!-- Common Samsung MSM8916 Kernel -->
   <project path="kernel/samsung/msm8916" name="Evervolv/android_kernel_samsung_msm8916"  remote="github" revision="q-10.0"/>
   
    <!-- Qcom Caf  -->
-  <remove-project name="LineageOS/android_hardware_qcom_audio"/>
+
  <project path="hardware/qcom/audio-caf/msm8916" name="Evervolv/android_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="github" revision="q-10.0-8916"/>
 
- <remove-project name="LineageOS/android_hardware_qcom_media"/>
+ 
  <project path="hardware/qcom/media-caf/msm8916" name="Evervolv/android_hardware_qcom_media-caf" groups="qcom,qcom_audio,pdk" remote="github" revision="q-10.0-8916"/>
 
- <remove-project name="LineageOS/android_hardware_qcom_display"/>
+ 
  <project path="hardware/qcom/display-caf/msm8916" name="Evervolv/android_hardware_qcom_display-caf" groups="qcom,qcom_audio,pdk" remote="github" revision="q-10.0-8916"/>
   
 
@@ -43,5 +43,5 @@
   <project path="device/samsung/gte-common" name="Galaxy-MSM8916/android_device_samsung_gte-common" groups="device"  remote="github" revision="lineage-16.0"/>
   <project path="device/samsung/gt58wifi" name="Nubianprince/gt58wifi" groups="device"  remote="github" revision="crdroid-10.0"/>
 
-</manifest> 
-
+  
+</manifest>
