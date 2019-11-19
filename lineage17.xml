@@ -37,6 +37,6 @@
   <project path="device/samsung/gte-common" name="Nubianprince/android_device_samsung_gte-common" groups="device" remote="github" revision="q-10"/>
 
  <!-- Galaxy Tab A -->
-  <project path="device/samsung/gt58wifi" name="Nubianprince/gt58wifi" groups="device"  remote="github" revision="lineage-17.0"/>
+  <project path="device/samsung/gt58wifi" name="Nubianprince/android_device_samsung_gt58wifi" groups="device"  remote="github" revision="lineage-17.0"/>
 
 </manifest> 
