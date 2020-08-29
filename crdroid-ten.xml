@@ -9,7 +9,6 @@
   
   <!-- Vendor Trees (gt58wifi) -->
   <project path="vendor/samsung/gt58wifi" name="Nubianprince/android_vendor_samsung_gt58wifi" remote="github" revision="ten"/>
-  <project path="vendor/samsung/gte-common" name="Nubianprince/android_vendor_samsung_gte-common" remote="github" revision="pie"/>
   <project path="vendor/samsung/msm8916-common" name="Nubianprince/android_vendor_samsung_msm8916-common" remote="github" revision="ten"/>
   
   <!-- Qcom audio  -->
