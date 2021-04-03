@@ -1,33 +1,18 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <remote  name="github"
-           fetch="git://github.com/"
-           sync-c="true"
-           sync-j="8" />
-
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
-
-  <remote  name="lineage"
-           fetch=".."
-           review="review.lineageos.org"
-           revision="refs/heads/lineage-18.1"
-           sync-j="2" />
       
-   <!-- GT58WIFI -->
-  <project path="device/samsung/msm8916-common" name="Evervolv/android_device_samsung_msm8916-common" groups="device"  remote="github" revision="r-11.0"/>
-  <project path="device/samsung/gt58wifi" name="Evervolv/android_device_samsung_gt58wifi" groups="device"  remote="github" revision="r-11.0"/>
-  <project path="device/samsung/gte-common" name="Evervolv/android_device_samsung_gte-common" groups="device"  remote="github" revision="r-11.0"/>
+  <!-- GT58WIFI -->
+  <project path="device/samsung/msm8916-common" name="Nubianprince/android_device_samsung_msm8916-common" groups="device"  remote="github" revision="11.0"/>
+  <project path="device/samsung/gt58wifi" name="Nubianprince/android_device_samsung_gt58wifi" groups="device"  remote="github" revision="11.0"/>
+  <project path="device/samsung/gta-common" name="Nubianprince/android_device_samsung_gta-common" groups="device"  remote="github" revision="11.0"/>
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device" remote="github" revision="lineage-18.1"/>
   
-     <!-- GTA4XLWIFI -->
+  <!-- GTA4XLWIFI -->
   <project path="device/samsung/gta4xl-common" name="LineageOS/android_device_samsung_gta4xl-common" groups="device"  remote="github" revision="lineage-18.1"/>
   <project path="device/samsung/gta4xlwifi" name="LineageOS/android_device_samsung_gta4xlwifi" groups="device"  remote="github" revision="lineage-18.1"/>
   
   <!-- Vendor (gt58wifi) -->
-  <project path="vendor/samsung" name="Evervolv/android_vendor_samsung" groups="device"  remote="github" revision="r-11.0"/>
+  <project path="vendor/samsung" name="Nubianprince/android_vendor_samsung" groups="device"  remote="github" revision="11.0"/>
   
   <!-- Vendor (gta4xlwifi) -->
   <project path="vendor/samsung/gta4xl-common" name="gta4xl/android_vendor_samsung_gta4xl-common" groups="device"  remote="github" revision="lineage-18.1"/>
