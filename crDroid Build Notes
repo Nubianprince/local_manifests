@@ -15,16 +15,16 @@ repopick -P system/netd -f 320592
 
 cd frameworks/av
 # apply patches move patches to patches/av folder
-patch -p1 < patches/av/'0001Camera: Restore camera HALv1 support.patch'
-patch -p1 < patches/av/'0002Camera: CameraHardwareInterface changes to support Extended FD.patch'
-patch -p1 < patches/av/'0004-5433camera: Only link and use vendor.qti.hardware.camera.device if specified.patch'
-patch -p1 < patches/av/'0010libstagefright: Free buffers on observer died.patch'
-patch -p1 < patches/av/'0014Camera: check metadata type before releasing frame.patch'
-patch -p1 < patches/av/'0015libstagefright: Fix memory leak due to lock timeout.patch'
-patch -p1 < patches/av/"0019libcameraservice: Don't pass NULL args on setCallbacks call.patch"
-patch -p1 < patches/av/'0020Revert "Remove support for audio HAL V2 from the framework.patch'
-patch -p1 < patches/av/'0021Camera: Add extensions to CameraClient.patch'
-patch -p1 < patches/av/'0022libstagefright: Free buffers on observer died.patch'
+patch -p1 < ../../patches/av/'0001Camera: Restore camera HALv1 support.patch'
+patch -p1 < ../../patches/av/'0002Camera: CameraHardwareInterface changes to support Extended FD.patch'
+patch -p1 < ../../patches/av/'0004-5433camera: Only link and use vendor.qti.hardware.camera.device if specified.patch'
+patch -p1 < ../../patches/av/'0010libstagefright: Free buffers on observer died.patch'
+patch -p1 < ../../patches/av/'0014Camera: check metadata type before releasing frame.patch'
+patch -p1 < ../../patches/av/'0015libstagefright: Fix memory leak due to lock timeout.patch'
+patch -p1 < ../../patches/av/"0019libcameraservice: Don't pass NULL args on setCallbacks call.patch"
+patch -p1 < ../../patches/av/'0020Revert "Remove support for audio HAL V2 from the framework.patch'
+patch -p1 < ../../patches/av/'0021Camera: Add extensions to CameraClient.patch'
+patch -p1 < ../../patches/av/'0022libstagefright: Free buffers on observer died.patch'
 
 Support legacy HALv1 camera in mediaserver
 repopick -P frameworks/av -f 320541
@@ -35,6 +35,6 @@ cd frameworks/base
 # apply patches move patches to patches/base folder
 
 repopick -P frameworks/base -f 320526
-patch -p1 < patches/base/'0002Camera: Add feature extensions.patch'
-patch -p1 < patches/base/'0004Hack: Ignore SensorPrivacyService Security Exception.patch'
-patch -p1 < patches/base/'0005CameraServiceProxy: Loosen UID check conditionally.patch' ( do not apply) causes errors
+patch -p1 < ../../patches/base/'0002Camera: Add feature extensions.patch'
+patch -p1 < ../../patches/base/'0004Hack: Ignore SensorPrivacyService Security Exception.patch'
+patch -p1 < ../../patch -p1 < ~/Downloads/frameworksbase/'0001Camera: Restore camera HALv1 support.patch'patches/base/'0005CameraServiceProxy: Loosen UID check conditionally.patch' ( do not apply) causes errors
