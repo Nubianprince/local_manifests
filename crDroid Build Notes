@@ -38,3 +38,5 @@ repopick -P frameworks/base -f 320526
 patch -p1 < ../../patches/base/'0002Camera: Add feature extensions.patch'
 patch -p1 < ../../patches/base/'0004Hack: Ignore SensorPrivacyService Security Exception.patch'
 patch -p1 < ../../patch -p1 < ~/Downloads/frameworksbase/'0001Camera: Restore camera HALv1 support.patch'patches/base/'0005CameraServiceProxy: Loosen UID check conditionally.patch' ( do not apply) causes errors
+
+
