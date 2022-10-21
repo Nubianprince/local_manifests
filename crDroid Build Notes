@@ -17,6 +17,7 @@ cd frameworks/av
 # apply patches move patches to patches/av folder
 patch -p1 < ../../patches/av/'0001Camera: Restore camera HALv1 support.patch'
 patch -p1 < ../../patches/av/'0002Camera: CameraHardwareInterface changes to support Extended FD.patch'
+patch -p1 < ../../patches/av//'0003Camera: Miscellaneous fixes in QDataCallback and binder death scenarios.patch' (Hunk #1 needs to be applied)
 patch -p1 < ../../patches/av/'0004-5433camera: Only link and use vendor.qti.hardware.camera.device if specified.patch'
 patch -p1 < ../../patches/av/'0010libstagefright: Free buffers on observer died.patch'
 patch -p1 < ../../patches/av/'0014Camera: check metadata type before releasing frame.patch'
